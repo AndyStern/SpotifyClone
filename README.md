@@ -1,5 +1,8 @@
 # helloworld
 
+Can't write. Gave up halfway through.
+It's a coursework assignment.
+
 ## Project setup
 ```
 npm install
