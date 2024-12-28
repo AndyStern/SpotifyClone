@@ -1,0 +1,66 @@
+/* 保持剩余的样式不变 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* 确保内边距和边框不会增加元素的宽度 */
+}
+
+body,
+html {
+  background-color: #121212;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  /* 确保 body 和 html 占满整个视口 */
+}
+
+/* 确保主容器背景颜色一致 */
+.main-container {
+  margin-left: 245px;
+  /* 保持与 sidebar 的间距 */
+  background-color: #121212;
+  padding-top: 60px;
+  /* 确保内容不会被固定在顶部的 topbar 遮挡 */
+  min-height: 100vh;
+  /* 确保至少填满整个视口高度 */
+  box-sizing: border-box;
+  /* 确保内边距和边框不会增加元素的宽度 */
+}
+
+.preview {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, #ae2896, #509bf5);
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.preview h6 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.preview p {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.preview button {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 30px;
+  border: 0px;
+  border-radius: 40px;
+  cursor: pointer;
+}
